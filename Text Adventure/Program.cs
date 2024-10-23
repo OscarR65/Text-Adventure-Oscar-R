@@ -20,10 +20,10 @@ namespace Text_Adventure
             Console.WriteLine("there is now a lovely snack in the middle of the road, and the pack isnt picky, they attack you and you are mauled to death.");
             MainMenu();
         }
-        static void MainRightFoward()
+        static void MainRightForward()
         {
             //you just keep going foward, and you make it back to your campsite eventually
-            Console.WriteLine("You head foward, and keep going, as you keep walking, the noise of the forest keep distracting you, but you dont faulter and keep going,");
+            Console.WriteLine("You head forward, and keep going, as you keep walking, the noise of the forest keep distracting you, but you dont faulter and keep going,");
             Console.WriteLine("you eventually reach a clearing, and at the height of thirst and hunger, you see.... your camp, you made it! its just a little bit ahead,");
             Console.WriteLine("you do eventually make it back, and are finally safe, you Survived!");
         }
@@ -70,7 +70,7 @@ namespace Text_Adventure
                 MainLeftRightShort();
             }
         }
-        static void MainLeftRight()
+        static void MainLeftRight() 
         {
             //heading deeper into the woods with a map
             Console.WriteLine("You take the path that leads deeper into the woods, eventually find a clearing with a map on it,");
@@ -106,9 +106,9 @@ namespace Text_Adventure
             {
                 MainRightStay();
             }
-            else if (input == "Foward")
+            else if (input == "Forward")
             {
-                MainRightFoward();
+                MainRightForward();
             }
             else
             {
@@ -201,7 +201,7 @@ namespace Text_Adventure
         }
         static void Main(string[] args)
         { 
-        
+            MainMenu();
         }
 
     }
